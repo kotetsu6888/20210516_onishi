@@ -26,13 +26,11 @@
   height: 70px;
   background: #000;
 }
-
 .header-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .header-logo {
   font-size: 20px;
   font-weight: bold;
@@ -40,16 +38,13 @@
   color: #f2f2f2;
   line-height: 70px;
 }
-
 .header-nav ul {
   display: flex;
 }
-
 .header-nav li {
   margin-right: 35px;
   font-size: 16px;
 }
-
 .header-nav a {
   color: #f2f2f2;
   text-decoration: none;
