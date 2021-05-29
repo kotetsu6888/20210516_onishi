@@ -219,7 +219,7 @@ input, select {
 
 #firstview {
   height: 100%;
-  background: url("../src/components/レスポンシブ解答/img/eyecatch.jpg") no-repeat;
+  background: url("../src/assets/mission-img.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
