@@ -19,6 +19,7 @@
       <span></span>
     </div>
 
+<div id="firstview"></div>
 
 <main>
       <div class="mission">
@@ -218,7 +219,7 @@ input, select {
 
 #firstview {
   height: 100%;
- /* background: url(../img/eyecatch.jpg) no-repeat; */
+  background: url("../src/components/レスポンシブ解答/img/eyecatch.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
