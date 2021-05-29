@@ -33,14 +33,14 @@
           <a href="" class="common-btn mission-btn">ミッション詳細</a>
         </div>
         <div class="mission-img">
-          <img src="img/mission-img.jpg" alt="" />
+          <img src="./assets/img/mission-img.jpg" alt="" />
         </div>
       </div>
       <div class="service">
         <h2 class="service-title section-title">service</h2>
         <div class="service-content">
           <div class="service-img">
-            <img src="img/service2.jpg" alt="" />
+            <img src="./assets/img/service2.jpg" alt="" />
           </div>
           <div class="service-content_inner">
             <h3 class="mgb-15">web制作事業</h3>
@@ -53,7 +53,7 @@
         </div>
         <div class="service-content">
           <div class="service-img service-img_second">
-            <img src="img/service1.jpg" alt="" />
+            <img src="./assets/img/service1.jpg" alt="" />
           </div>
           <div class="service-content_inner service-content_inner-second">
             <h3 class="mgb-15">web制作事業</h3>
@@ -218,19 +218,23 @@ input, select {
 }
 
 #firstview {
-  height: 100%;
-  background: url("../src/assets/mission-img.jpg") no-repeat;
+  height: 680px;
+  background: url("./assets/img/eyecatch.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
-
-
-
-
-
-
+.catchcopy {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1;
+}
 /*------------------------*/
 /*         news           */
 /*------------------------*/
@@ -355,11 +359,11 @@ input, select {
 }
 
 .company-img {
-  background: url("../src/components/レスポンシブ解答/img/company.jpeg") center/cover no-repeat;
+  background: url("./assets/img/company.jpeg") center/cover no-repeat;
 }
 
 .recruit-img {
-  background: url("../src/components/レスポンシブ解答/img/recruit.jpg") center/cover no-repeat;
+  background: url("./assets/img/recruit.jpg") center/cover no-repeat;
 }
 
 .company-title {
@@ -406,7 +410,7 @@ input, select {
 /*        contact         */
 /*------------------------*/
 .contact {
-  background: url("../src/components/レスポンシブ解答/img/contact-bg.jpg") center/cover no-repeat;
+  background: url("./assets/img/contact-bg.jpg") center/cover no-repeat;
   padding: 10%;
 }
 
@@ -432,7 +436,5 @@ input, select {
 }
 
 </style>
-
-
 
 
