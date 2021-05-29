@@ -122,99 +122,184 @@ export default {
 
 
 <style>
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-  margin:0;
-  padding:0;
-  border:0;
-  outline:0;
-  font-size:100%;
-  vertical-align:baseline;
-  background:transparent;
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,body,div,span,object,iframe,h1,h2,h4,h3,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 body {
-  line-height:1;
+  line-height: 1.6;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-  display:block;
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,
+section {
+  display: block;
 }
 
 nav ul {
-  list-style:none;
+  list-style: none;
 }
 
-blockquote, q {
-  quotes:none;
+blockquote,
+q {
+  quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content:'';
-  content:none;
+blockquote:before,blockquote:after,q:before,q:after {
+  content: "";
+  content: none;
 }
 
 a {
-  margin:0;
-  padding:0;
-  font-size:100%;
-  vertical-align:baseline;
-  background:transparent;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 /* change colours to suit your needs */
 ins {
-  background-color:#ff9;
-  color:#000;
-  text-decoration:none;
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
 }
 
 /* change colours to suit your needs */
 mark {
-  background-color:#ff9;
-  color:#000;
-  font-style:italic;
-  font-weight:bold;
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
 }
 
 del {
   text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
-  border-bottom:1px dotted;
-  cursor:help;
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
 }
 
 table {
-  border-collapse:collapse;
-  border-spacing:0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* change border colour to suit your needs */
 hr {
-  display:block;
-  height:1px;
-  border:0;
-  border-top:1px solid #cccccc;
-  margin:1em 0;
-  padding:0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
-input, select {
-  vertical-align:middle;
+input,select {
+  vertical-align: middle;
+}
+
+/*------------------------*/
+/*------------------------*/
+html {
+  height: 100%;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+body {
+  color: #333333;
+  height: 100%;
+}
+
+.mgb-15 {
+  margin-bottom: 15px;
+}
+
+.common-btn {
+  display: block;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  background: #fff;
+  padding: 0 20px;
+  color: #000;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 40px;
+  line-height: 1;
+}
+
+.section-title span {
+  font-size: 20px;
+}
+
+/*------------------------*/
+/*         header         */
+/*------------------------*/
+#hamburger {
+  display: none;
+}
+
+#top-header {
+  height: 70px;
+  line-height: 70px;
+  background: rgba(0, 0, 0, 1);
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #fff;
+  line-height: 70px;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #fff;
 }
 
 #firstview {
@@ -235,6 +320,7 @@ input, select {
   color: #fff;
   line-height: 1;
 }
+
 /*------------------------*/
 /*         news           */
 /*------------------------*/
@@ -345,6 +431,7 @@ input, select {
   border: 1px solid #000;
   margin: 0 0 0 auto;
 }
+
 /*------------------------*/
 /*        recruit         */
 /*------------------------*/
@@ -434,7 +521,112 @@ input, select {
   border: 1px solid #fff;
   color: #fff;
 }
+/* ここまで */
+.footer-bar {
+  height: 70px;
+  line-height: 70px;
+}
 
+.top-footer {
+  background: #000;
+  text-align: center;
+}
+
+.top-footer small {
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
+  .catchcopy {
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  .news {
+    width: 100%;
+  }
+  .mission-content {
+    padding: 10% 0;
+    margin: 0 auto;
+  }
+  .service-content_inner {
+    width: 60%;
+    left: 10%;
+  }
+  .service-img {
+    width: 70%;
+    margin-left: 30%;
+  }
+  .service-img_second {
+    margin: 0 30% 0 0;
+  }
+  .service-content_inner-second {
+    left: 30%;
+  }
+  .service-content {
+    margin: 0 auto;
+  }
+  .service-content_inner {
+    width: 90%;
+    position: inherit;
+    background: rgba(255, 255, 255, 0.8);
+    left: 5%;
+  }
+  .service-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .recruit-company_size {
+    width: 100%;
+  }
+  .faq-title {
+    font-size: 30px;
+  }
+  .top-footer .header-logo {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+  #hamburger {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    top: 15px;
+    right: 20px;
+    transition: 0.4s;
+    display: block;
+  }
+  #hamburger span {
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    transition: 0.8s;
+  }
+  #hamburger span:nth-of-type(1) {
+    position: absolute;
+    top: 10px;
+    left: 2px;
+  }
+  #hamburger span:nth-of-type(2) {
+    position: absolute;
+    top: 20px;
+    left: 2px;
+  }
+  #hamburger span:nth-of-type(3) {
+    position: absolute;
+    top: 30px;
+    left: 2px;
+  }
+}
 </style>
 
 
