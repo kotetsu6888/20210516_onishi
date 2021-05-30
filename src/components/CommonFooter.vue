@@ -1,30 +1,19 @@
-20210516_onishi/src/components/CommonFooter.vue
-@kotetsu6888
-kotetsu6888 1
-Latest commit 495b760 7 days ago
- History
- 1 contributor
-63 lines (50 sloc)  1.1 KB
-  
 <template>
   <footer class="top-footer">
-        <div class="footer-bar">
-
-            <h1 class="footer-logo">estra inc.</h1>
-            <nav class="footer-nav">
-              <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">service</a></li>
-                <li><a href="#">works</a></li>
-                <li><a href="#">price</a></li>
-                <li><a href="#">contact</a></li>
-              </ul>
-            </nav>
-          
-          
-        </div>
-        <p><small>Copyright 2019 estra inc. All Rights Reserved.</small></p>
+    <div class="footer-bar">
+      <h1 class="footer-logo">estra inc.</h1>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">service</a></li>
+          <li><a href="#">works</a></li>
+          <li><a href="#">price</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p><small>Copyright 2019 estra inc. All Rights Reserved.</small></p>
   </footer>
 </template>
 
@@ -57,6 +46,7 @@ Latest commit 495b760 7 days ago
   text-decoration: none;
 }
 .top-footer p {
+  height: 50px;
   text-align: center;
 }
 </style>
