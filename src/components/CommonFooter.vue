@@ -19,7 +19,7 @@
 
 <style scoped>
 .top-footer {
-  height: 70px;
+  height: 100px;
   background: #000;
 }
 .footer-bar {
@@ -46,7 +46,6 @@
   text-decoration: none;
 }
 .top-footer p {
-  height: 50px;
   text-align: center;
 }
 </style>

@@ -13,11 +13,7 @@
         <div class="news-icon">news</div>
       </div>
     </div>
-    <div id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+   
 
     <main>
       <div class="mission">
